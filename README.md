@@ -17,7 +17,7 @@ Pytorch implementation of our method for BMVC 2022 paper: "DA-CIL: Towards Domai
 Deep learning has achieved notable success in 3D object detection with the advent of large-scale point cloud datasets. However, severe performance degradation in the past trained classes, i.e., catastrophic forgetting, still remains a critical issue for real-world deployment when the number of classes is unknown or may vary. Moreover, existing 3D class-incremental detection methods are developed for the single-domain scenario, which fail when encountering domain shift caused by different datasets, varying environments, etc. In this paper, we identify the unexplored yet valuable scenario, i.e., class-incremental learning under domain shift, and propose a novel 3D domain adaptive class-incremental object detection framework, DA-CIL, in which we design a novel dual-domain copy-paste augmentation method to construct multiple augmented domains for diversifying training distributions, thereby facilitating gradual domain adaptation. Then, multi-level consistency is explored to facilitate dual-teacher knowledge distillation from different domains for domain adaptive class-incremental learning. Extensive experiments on various datasets demonstrate the effectiveness of the proposed method over baselines in the domain adaptive class-incremental learning scenario.
 
 <p align="center">
-<img src="https://github.com/jacobzhaoziyuan/DA-CIL/blob/main/assets/archi-bmvc.png" width="800">
+<img src="https://github.com/jacobzhaoziyuan/DA-CIL/blob/main/assets/archi-bmvc.png" width="1000">
 </p>
 
 
